@@ -10,6 +10,9 @@ router.get('/login', (req, res) => {
     res.render("signup.ejs");
 });
 
+router.get("/faq", (req, res) => {
+  res.render("faq.ejs");
+});
 router.get('/signup', (req, res) => {
     res.render('signup.ejs')
 });
